@@ -1,3 +1,3 @@
 # leetcode-problems
 
-init
+[my profile](https://leetcode.com/Denuha/) on leetcode
