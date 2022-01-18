@@ -8,4 +8,6 @@ import (
 
 func main() {
 	fmt.Println("twoSum:", problems.TwoSumTest())
+
+	fmt.Println("Add Two Numbers:", problems.AddTwoNumbersTest())
 }
