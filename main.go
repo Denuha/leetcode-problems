@@ -16,4 +16,7 @@ func main() {
 	fmt.Println("Pow(x,n):", problems.MyPowTest())
 
 	fmt.Println("Can Place Flowers:", problems.CanPlaceFlowersTest())
+
+	ok, str := problems.WordPatternTest()
+	fmt.Println("Word Pattern:", ok, str)
 }
