@@ -4,7 +4,7 @@ import (
 	"reflect"
 )
 
-func RemoveDuplicatesTest() bool {
+func RemoveDuplicatesTest() (bool, string) {
 	var (
 		nums         []int
 		expectedNums []int
@@ -15,11 +15,11 @@ func RemoveDuplicatesTest() bool {
 	expectedNums = []int{1, 2}
 	k = removeDuplicates(nums)
 	if k != len(expectedNums) {
-		return false
+		return false, "case 1"
 	}
 
 	if !reflect.DeepEqual(nums, expectedNums) {
-		return false
+		return false, "case 1"
 	}
 
 	nums = []int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}
@@ -27,12 +27,12 @@ func RemoveDuplicatesTest() bool {
 
 	k = removeDuplicates(nums)
 	if k != len(expectedNums) {
-		return false
+		return false, "case 2"
 	}
 
 	if !reflect.DeepEqual(nums, expectedNums) {
-		return false
+		return false, "case 2"
 	}
 
-	return true
+	return true, "good"
 }

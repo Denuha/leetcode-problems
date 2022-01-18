@@ -2,7 +2,7 @@ package problems
 
 import "reflect"
 
-func AddTwoNumbersTest() bool {
+func AddTwoNumbersTest() (bool, string) {
 	var L1a *ListNode = &ListNode{
 		Val:  3,
 		Next: nil,
@@ -49,8 +49,8 @@ func AddTwoNumbersTest() bool {
 	}
 
 	if !reflect.DeepEqual(addTwoNumbers(L1, L2), res) {
-		return false
+		return false, "case 1"
 	}
 
-	return true
+	return true, "good"
 }

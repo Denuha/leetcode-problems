@@ -7,16 +7,26 @@ import (
 )
 
 func main() {
-	fmt.Println("twoSum:", problems.TwoSumTest())
+	var (
+		ok         bool
+		resultCase string
+	)
 
-	fmt.Println("Add Two Numbers:", problems.AddTwoNumbersTest())
+	ok, resultCase = problems.TwoSumTest()
+	fmt.Println("twoSum:", ok, resultCase)
 
-	fmt.Println("Remove Duplicates from Sorted Array:", problems.RemoveDuplicatesTest())
+	ok, resultCase = problems.AddTwoNumbersTest()
+	fmt.Println("Add Two Numbers:", ok, resultCase)
 
-	fmt.Println("Pow(x,n):", problems.MyPowTest())
+	ok, resultCase = problems.RemoveDuplicatesTest()
+	fmt.Println("Remove Duplicates from Sorted Array:", ok, resultCase)
 
-	fmt.Println("Can Place Flowers:", problems.CanPlaceFlowersTest())
+	ok, resultCase = problems.MyPowTest()
+	fmt.Println("Pow(x,n):", ok, resultCase)
 
-	ok, str := problems.WordPatternTest()
-	fmt.Println("Word Pattern:", ok, str)
+	ok, resultCase = problems.CanPlaceFlowersTest()
+	fmt.Println("Can Place Flowers:", ok, resultCase)
+
+	ok, resultCase = problems.WordPatternTest()
+	fmt.Println("Word Pattern:", ok, resultCase)
 }
