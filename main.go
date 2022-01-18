@@ -14,4 +14,6 @@ func main() {
 	fmt.Println("Remove Duplicates from Sorted Array:", problems.RemoveDuplicatesTest())
 
 	fmt.Println("Pow(x,n):", problems.MyPowTest())
+
+	fmt.Println("Can Place Flowers:", problems.CanPlaceFlowersTest())
 }
