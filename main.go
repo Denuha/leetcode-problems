@@ -10,4 +10,6 @@ func main() {
 	fmt.Println("twoSum:", problems.TwoSumTest())
 
 	fmt.Println("Add Two Numbers:", problems.AddTwoNumbersTest())
+
+	fmt.Println("Remove Duplicates from Sorted Array:", problems.RemoveDuplicatesTest())
 }
