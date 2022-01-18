@@ -12,4 +12,6 @@ func main() {
 	fmt.Println("Add Two Numbers:", problems.AddTwoNumbersTest())
 
 	fmt.Println("Remove Duplicates from Sorted Array:", problems.RemoveDuplicatesTest())
+
+	fmt.Println("Pow(x,n):", problems.MyPowTest())
 }
