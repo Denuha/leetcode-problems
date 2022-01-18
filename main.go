@@ -29,4 +29,7 @@ func main() {
 
 	ok, resultCase = problems.WordPatternTest()
 	fmt.Println("Word Pattern:", ok, resultCase)
+
+	ok, resultCase = problems.IntToRomanTest()
+	fmt.Println("Integer to Roman:", ok, resultCase)
 }
