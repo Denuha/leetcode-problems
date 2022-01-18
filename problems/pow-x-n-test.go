@@ -23,10 +23,6 @@ func MyPowTest() bool {
 	x = 2.10000
 	n = 3
 
-	// if !reflect.DeepEqual(math.Round() myPow(x, n), 9.26100) {
-	// 	return false
-	// }
-
 	if math.Abs(myPow(x, n)-9.26100) > TOLERANCE {
 		return false
 	}
