@@ -35,4 +35,7 @@ func main() {
 
 	ok, resultCase = problems.ReverseTest()
 	fmt.Println("Reverse Integer:", ok, resultCase)
+
+	ok, resultCase = problems.DivideTest()
+	fmt.Println("Divide:", ok, resultCase)
 }
