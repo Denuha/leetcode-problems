@@ -33,7 +33,7 @@ func DivideTest() (bool, string) {
 	dividend = -2147483648
 	divisor = 1
 	if divide(dividend, divisor) != -2147483648 {
-		return false, "case 4"
+		return false, "case 5"
 	}
 
 	return true, "good"
