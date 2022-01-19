@@ -38,4 +38,7 @@ func main() {
 
 	ok, resultCase = problems.DivideTest()
 	fmt.Println("Divide:", ok, resultCase)
+
+	ok, resultCase = problems.LongestCommonPrefixTest()
+	fmt.Println("Longest Common Prefix:", ok, resultCase)
 }
