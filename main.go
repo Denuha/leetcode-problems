@@ -32,4 +32,7 @@ func main() {
 
 	ok, resultCase = problems.IntToRomanTest()
 	fmt.Println("Integer to Roman:", ok, resultCase)
+
+	ok, resultCase = problems.ReverseTest()
+	fmt.Println("Reverse Integer:", ok, resultCase)
 }
