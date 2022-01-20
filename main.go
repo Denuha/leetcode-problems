@@ -44,4 +44,7 @@ func main() {
 
 	ok, resultCase = problems.FindMedianSortedArraysTest()
 	fmt.Println("Median of Two Sorted Arrays:", ok, resultCase)
+
+	ok, resultCase = problems.MyAtoiTest()
+	fmt.Println("String to Integer:", ok, resultCase)
 }
